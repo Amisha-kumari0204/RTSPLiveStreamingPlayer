@@ -13,8 +13,8 @@ This application allows users to view a livestream from an RTSP URL, with the ab
 
 1.  **Clone the Repository**
     ```bash
-    git clone <your-repo-url>
-    cd full-stack-rtsp-player
+    git clone https://github.com/Amisha-kumari0204/RTSPLiveStreamingPlayer.git
+    cd RTSPLiveStreamingPlayer
     ```
 
 2.  **Backend Setup**
@@ -24,6 +24,7 @@ This application allows users to view a livestream from an RTSP URL, with the ab
     
     # Create a .env file and add your MongoDB connection string
     # Example: MONGO_URI=mongodb://localhost:27017/rtsp_overlays
+    
     cp .env.example .env 
     ```
 
@@ -60,3 +61,4 @@ This application allows users to view a livestream from an RTSP URL, with the ab
 3.  **Manage Overlays**:
     -   **Add**: Use the "Add New Overlay" form to create text or logo overlays. Specify the content, position (x, y), and size, then click "Add Overlay".
     -   **Edit/Delete**: Your saved overlays will appear in the "Saved Overlays" list. Use the "Edit" and "Delete" buttons to manage them. Changes will be reflected on the livestream in real-time.
+
