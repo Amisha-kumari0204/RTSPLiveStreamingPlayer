@@ -1,0 +1,6 @@
+Flask
+Flask-PyMongo
+Flask-Cors
+python-dotenv
+opencv-python
+numpy
